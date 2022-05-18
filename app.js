@@ -1,8 +1,7 @@
-import { initializeApp } from 'firebase/app';
+var express = require('express'),
+  app = express(),
+  port = process.env.PORT || 3000;
 
-// TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
-  //...
-};
+app.listen(port);
 
-const app = initializeApp(firebaseConfig);
+console.log('todo list RESTful API server started on: ' + port);
