@@ -1,7 +1,7 @@
 
 module.exports = app => {
-    const controller = require('../controllers/customer-wallets')();
+    const controller = require('../controllers/exemploController')();
   
-    app.route('/api/v1/customer-wallets')
+    app.route('/api/v1/minha-rota')
       .get(controller.listCustomerWallets);
   }
