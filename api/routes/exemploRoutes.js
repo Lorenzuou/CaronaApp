@@ -4,4 +4,12 @@ module.exports = app => {
   
     app.route('/api/v1/minha-rota')
       .get(controller.listCustomerWallets);
+
+
+
+
+
+
+
+      
   }
